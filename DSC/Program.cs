@@ -86,27 +86,22 @@ namespace DSC
             #region bouns
             //WriteLine("Enter the target :");
             //int t = int.Parse(ReadLine());
-            //int[] nums=new int[4];
-            //for(int i=0;i<nums.Length;i++)
+            //int[] nums = new int[4];
+            //for (int i = 0; i < nums.Length; i++)
             //{
-            //    WriteLine($"Enter number {i+1}:");
-            //    nums[i]=int.Parse(ReadLine());
+            //    WriteLine($"Enter number {i + 1}:");
+            //    nums[i] = int.Parse(ReadLine());
             //}
-            //for(int i=0;i<nums.Length;i++)
+            //for (int i = 0; i < nums.Length; i++)
             //{
-            //    if ((nums[i] + nums[i + 1]) == t)
-            //        WriteLine($"[{i},{i+1}]");
-            //    else if ((nums[i] + nums[i + 2]) == t)
-            //        WriteLine($"[{i},{i+2}]");
-            //    else if ((nums[i] + nums[i + 3]) == t)
-            //        WriteLine($"[{i},{i+3}]");
-            //    else if ((nums[i + 1] + nums[i + 2]) == t)
-            //        WriteLine($"[{i+1},{i+2}]");
-            //    else if ((nums[i + 1] + nums[i + 3]) == t)
-            //        WriteLine($"[{i+1},{i+3}]");
-            //    else if ((nums[i + 2] + nums[i + 3]) == t)
-            //        WriteLine($"[{i+2},{i+3}]");
-            //    ReadKey();
+            //    for (int j = i + 1; j < nums.Length; j++)
+            //    {
+            //        if (nums[i] + nums[j] == t)
+            //        {
+            //            WriteLine($"[{i}, {j}]");
+            //        }
+            //    }
+
             //}
             #endregion
         }
