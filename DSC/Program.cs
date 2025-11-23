@@ -84,25 +84,26 @@ namespace DSC
             //ReadKey();
             #endregion
             #region bouns
-            //WriteLine("Enter the target :");
-            //int t = int.Parse(ReadLine());
-            //int[] nums = new int[4];
-            //for (int i = 0; i < nums.Length; i++)
-            //{
-            //    WriteLine($"Enter number {i + 1}:");
-            //    nums[i] = int.Parse(ReadLine());
-            //}
-            //for (int i = 0; i < nums.Length; i++)
-            //{
-            //    for (int j = i + 1; j < nums.Length; j++)
-            //    {
-            //        if (nums[i] + nums[j] == t)
-            //        {
-            //            WriteLine($"[{i}, {j}]");
-            //        }
-            //    }
-
-            //}
+            WriteLine("Enter the target :");
+            int t = int.Parse(ReadLine());
+            int[] nums = new int[4];
+            for (int i = 0; i < nums.Length; i++)
+            {
+                WriteLine($"Enter number {i + 1}:");
+                nums[i] = int.Parse(ReadLine());
+            }
+            for (int i = 0; i < nums.Length; i++)
+            {
+                for (int j = i + 1; j < nums.Length; j++)
+                {
+                    if (nums[i] + nums[j] == t)
+                    {
+                        WriteLine($"[{i},{j}]");
+                    }
+                    else
+                        WriteLine("Not found target.");
+                }
+            }
             #endregion
         }
     }
