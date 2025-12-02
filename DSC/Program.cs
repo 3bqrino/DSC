@@ -93,10 +93,12 @@ namespace DSC
         #region q5
         //public static string IsPrime(int n)
         //{
+        //    if(n<=1)
+        //        return "Not prime";
 
-        //    for (int i = 1; i * i <= n; i++)
+        //    for (int i = 2; i * i <= n; i++)
         //    {
-        //        if (n % i == 0 || n == 1)
+        //        if (n % i == 0 )
         //            return "Not prime";
         //    }
 
@@ -260,7 +262,7 @@ namespace DSC
             //int n = int.Parse(Console.ReadLine());
             //string answer = IsPrime(n);
             //Console.WriteLine(answer);
-            #endregion
+            //#endregion
             #region q6 => main
             //int n = int.Parse(Console.ReadLine());
             //factorial(n);
