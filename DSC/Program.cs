@@ -106,14 +106,14 @@ namespace DSC
         //}
         #endregion
         #region q6
-        //public static void factorial(int n)
-        //{
-        //    int fact = 1;
-        //    for (int i = 1; i <= n; i++)
-        //    {
-        //        fact *= i;
-        //    }
-        //    Console.WriteLine($"factorial : {fact}");
+                    public static void factorial(long n)
+        {
+            long  fact = 1;
+            for (int i = 1; i <= n; i++)
+            {
+                fact *= i;
+            }
+            Console.WriteLine($"factorial : {fact}");
 
         //}
         #endregion
