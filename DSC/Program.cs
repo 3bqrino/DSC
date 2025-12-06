@@ -106,7 +106,7 @@ namespace DSC
         //}
         #endregion
         #region q6
-                    public static void factorial(long n)
+        public static void factorial(long n)
         {
             long  fact = 1;
             for (int i = 1; i <= n; i++)
@@ -115,7 +115,7 @@ namespace DSC
             }
             Console.WriteLine($"factorial : {fact}");
 
-        //}
+        }
         #endregion
         #region q7
         //public static void SumDigit(int n)
@@ -169,20 +169,20 @@ namespace DSC
         #region q10
         //public static void Swaprow(int n, int x, int y, int[,] arr)
         //{
+        //    --x; --y;
         //    for (int i = 0; i < n; i++)
         //    {
-        //        int temp = arr[x, i];
+        //        int temprow = arr[x, i];
         //        arr[x, i] = arr[y, i];
-        //        arr[y, i] = temp;
+        //        arr[y, i] = temprow;
+                
         //    }
-        //}
-        //public static void Swapcolumn(int n, int x, int y, int[,] arr)
-        //{
         //    for (int i = 0; i < n; i++)
         //    {
         //        int temp = arr[i, x];
         //        arr[i, x] = arr[i, y];
         //        arr[i, y] = temp;
+
         //    }
         //}
         #endregion
@@ -262,7 +262,7 @@ namespace DSC
             //int n = int.Parse(Console.ReadLine());
             //string answer = IsPrime(n);
             //Console.WriteLine(answer);
-            //#endregion
+            #endregion
             #region q6 => main
             //int n = int.Parse(Console.ReadLine());
             //factorial(n);
@@ -285,7 +285,6 @@ namespace DSC
             //ShiftZeros(arr, n);
             //for (int i = 0; i < n; i++)
             //    Console.Write(arr[i] + " ");
-
             #endregion
             #region q10 => main
             //int n = int.Parse(Console.ReadLine());
@@ -301,8 +300,7 @@ namespace DSC
             //    }
             //}
             //Swaprow(n, x, y, arr);
-            //Swapcolumn(n, x, y, arr);
-            //Console.WriteLine( );
+            //Console.WriteLine();
             //for (int i = 0; i < n; i++)
             //{
             //    for (int j = 0; j < n; j++)
